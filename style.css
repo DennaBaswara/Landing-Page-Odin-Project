@@ -1,0 +1,63 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font */
+@font-face {
+    font-family: 'delight';
+    src: url('fonts/delight-thin.otf') format("opentype");
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'delight';
+    src: url('fonts/delight-regular.otf') format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'delight';
+    src: url('fonts/delight-bold.otf') format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'delight';
+    src: url('fonts/delight-black.otf') format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* header */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(50, 50, 50);
+    padding: 16px 15%;
+}
+
+.header-tittle {
+    font-family: 'delight', sans-serif;
+    font-weight: 900;;
+     color: #e0fdff;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.header-link-item {
+    font-family: 'delight', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #e0fdff;
+}   
