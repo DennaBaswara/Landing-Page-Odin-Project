@@ -4,3 +4,7 @@ This is my first landing page project i've ever created. I do it for the assignm
 The reference i get from The Odin Project:
 
 ![Reference Course](./odin-project.png)
+
+And this is the result of my landing page project:
+
+![Landing Page Result](./result-project.png)
